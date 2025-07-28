@@ -24,6 +24,7 @@
   height: 95vh;
   border-radius: 8px;
   margin: 0;
+  background-color:black;
 }
 
 
@@ -60,6 +61,7 @@ height: 20px;
   flex-direction: column;
   gap: 15px;
   justify-content: center;
+  width:541px;
  
 }
 
