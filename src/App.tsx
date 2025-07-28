@@ -14,7 +14,7 @@ const App: React.FC = () => {
             <Route path="/" element={<SignupPage />} />
             <Route path="/home" element={<HomePage />} />
             {/* Add a catch-all route for client-side routing */}
-            <Route path="*" element={<HomePage />} />
+            
           </Routes>
         </Router>
      
