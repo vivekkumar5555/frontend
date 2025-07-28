@@ -1,1 +1,93 @@
 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  min-height: 100vh;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.time-display {
+  font-size: clamp(1rem, 4vw, 1.2rem);
+  color: #666;
+  margin-bottom: clamp(20px, 5vw, 30px);
+}
+
+.welcome-section h1 {
+  font-size: clamp(1.4rem, 5vw, 1.8rem);
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+
+.welcome-section p {
+  color: #666;
+  margin-top: 0;
+  font-size: clamp(0.9rem, 3vw, 1rem);
+}
+
+.create-note-button {
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: clamp(0.9rem, 3.5vw, 1rem);
+  margin: clamp(15px, 4vw, 20px) 0;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.2s;
+}
+
+.create-note-button:hover {
+  background-color: #0063cc;
+}
+
+.notes-section h2 {
+  font-size: clamp(1.2rem, 4.5vw, 1.4rem);
+  margin-bottom: clamp(10px, 3vw, 15px);
+}
+
+.notes-list {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(8px, 2vw, 10px);
+}
+
+.note-item {
+  background-color: white;
+  padding: clamp(12px, 3vw, 15px);
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: clamp(0.9rem, 3vw, 1rem);
+}
+
+
+@media (max-width: 500px) {
+  .app-container {
+    padding: 15px;
+  }
+
+  .welcome-section h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .app-container {
+    padding: 12px;
+  }
+
+  .time-display {
+    margin-bottom: 15px;
+  }
+}
+
