@@ -139,7 +139,9 @@ const RegistrationForm: React.FC = () => {
           <div className="hd-logo"></div>
         </div>
         <form onSubmit={handleSubmit} className="registration-form">
+          <div className="signup">
           <h2>Sign up</h2>
+            </div>
           <br></br>
           <p className="subtitle">Sign up to enjoy the feature of HD</p>
 
