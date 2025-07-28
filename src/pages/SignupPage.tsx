@@ -96,7 +96,7 @@ const RegistrationForm: React.FC = () => {
       );
       console.log(response.status)
       setSuccess(true);
-      navigate('/');
+      navigate('/home');
     } catch (err: any) {
       console.error('OTP verification error:', err.response?.data);
       setError(err.response?.data?.message || 'Invalid OTP. Please try again.');
