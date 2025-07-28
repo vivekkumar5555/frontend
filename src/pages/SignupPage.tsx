@@ -140,6 +140,7 @@ const RegistrationForm: React.FC = () => {
         </div>
         <form onSubmit={handleSubmit} className="registration-form">
           <h2>Sign up</h2>
+          <br></br>
           <p className="subtitle">Sign up to enjoy the feature of HD</p>
 
           {!otpSent && (
