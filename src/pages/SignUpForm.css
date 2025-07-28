@@ -12,7 +12,13 @@
   overflow: hidden;
   height: 80vh;
 }
-
+.signup{
+  display: flex;
+  align-items: left;
+  width: 100%;
+  padding-bottom: 5px;
+  
+}
 .sideimage {
   flex: 1;
   background-image: url('../../public/right-column.png');
