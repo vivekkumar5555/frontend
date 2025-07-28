@@ -142,7 +142,6 @@ const RegistrationForm: React.FC = () => {
           <div className="signup">
           <h2>Sign up</h2>
             </div>
-          <br></br>
           <p className="subtitle">Sign up to enjoy the feature of HD</p>
 
           {!otpSent && (
