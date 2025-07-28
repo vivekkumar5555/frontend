@@ -16,7 +16,7 @@
 .sideimage {
  flex: 1;
   background-image: url('../../public/right-column.png');
-  
+  background-repeat: no-repeat;
   background-position: center;
   display: block;
   border-radius: 8px;
